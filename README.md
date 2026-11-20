@@ -9,7 +9,7 @@
 ### 从 Git 仓库
 
 ```text
-plugin_manager install_bundle target=https://github.com/<owner>/<repo>
+plugin_manager install_bundle target=https://github.com/whereislittlefish-dot/dsh-mcp-manager-ui
 ```
 
 也可以在桌面端的插件市场里选「从 GitHub 安装」并填仓库地址。

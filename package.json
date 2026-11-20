@@ -41,5 +41,10 @@
     "docs",
     "icon.svg"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whereislittlefish-dot/dsh-mcp-manager-ui.git"
+  },
+  "homepage": "https://github.com/whereislittlefish-dot/dsh-mcp-manager-ui#readme",
   "license": "MIT"
 }
