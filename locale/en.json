@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "MCP servers",
+    "description": "A sidebar panel that manages the MCP server fleet already mounted by the Harness: list servers with live connection state, add, edit, enable, disable, restart, test and delete them.",
+    "detail": "docs/DETAIL.md"
+  }
+}

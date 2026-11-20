@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "MCP 服务器",
+    "description": "左侧栏里的 MCP 服务器管理面板：查看连接状态，新建、编辑、启用、停用、重启、测试和删除 MCP 服务器。",
+    "detail": "docs/DETAIL.md"
+  }
+}

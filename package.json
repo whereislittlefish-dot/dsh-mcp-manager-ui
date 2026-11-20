@@ -1,0 +1,45 @@
+{
+  "name": "dsh-mcp-manager-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server manager panel in the DSH sidebar: list, inspect, add, edit, enable, disable, restart, probe and delete MCP servers backed by @deepseek-ai/dsh-mcp-manager.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "icon": "./icon.svg",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    },
+    "manifestVersion": 1
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "license": "MIT"
+}
