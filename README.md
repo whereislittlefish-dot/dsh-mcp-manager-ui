@@ -1,3 +1,5 @@
+[English](README.en.md) | 中文
+
 # dsh-mcp-manager-ui
 
 左侧栏里的 MCP 服务器管理入口：点开后是主区域的服务器页面。它驱动 Harness 内置的 `@deepseek-ai/dsh-mcp-manager`——读连接状态、写 profile 配置——不自己连接 MCP 服务器。
